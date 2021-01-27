@@ -83,13 +83,6 @@ last_date = session.query(Measurement.date).order_by(Measurement.date.desc()).fi
 last_date = dt.datetime.strptime(last_date, "%Y-%m-%d")
 last_year_date = last_date - dt.timedelta(days=365)
 
-# Query the dates and temperature observations of the most active station for the last year of data.
-active_results = (
-    session.query(Measurement.date, Measurement.tobs).\
-    filter(Measurement.station == "USC00519281").\
-    filter(Measurement.date.between ("2016-08-23", "2017-08-23")).all()
-)
-
 @app.route("/api/v1.0/precipitation")
 def precipitation():
     """Return a dictionary in JSON format where the date is the key and the value is 
