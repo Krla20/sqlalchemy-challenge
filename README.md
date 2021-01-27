@@ -54,24 +54,30 @@ Reference file [climate_starter](https://github.com/Krla20/sqlalchemy-challenge/
 - Use Flask to create and list all your routes.
 - Use Flask jsonify to convert your API data into a valid JSON response object.
 
-Reference file [app.py](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/app.py)
+-- Reference file [app.py](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/app.py)
 
   - All Routes
+  
 ![alt_text](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/Images/api_routes.PNG)
 
   - Precipitation
+  
 ![alt_text](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/Images/api_precipitation.PNG)
 
   - Stations
+  
 ![alt_text](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/Images/api_stations.PNG)
 
   - TOBS
+  
 ![alt_text](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/Images/api_tobs.PNG)
 
   - Start Date
+  
 ![alt_text](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/Images/api_start_date.PNG)
 
   - Start End Date
+  
 ![alt_text](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/Images/api_start_end_date.PNG)
 
 ------
