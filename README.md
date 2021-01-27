@@ -2,20 +2,20 @@
 # SQLAlchemy and Flask Challenge - Surf Up!
 ***
 
+    By Karla M. Murphy
+
 ## Objectives
 
 1. Use Python SQLAlchemy ORM queries for the provided hawaii.sqlite to reflect tables into a new model to analyze Honolulu, Hawaii! Climate.
   - Create engine, inspector, reflect existing database model in a new one, automap classes.
   
       |Requirements|Name of activity|
-      |:---|:---|:---|
+      |:---|:---|
       |# 1|Precipitation Analysis|
       |# 2|Station Analysis|
       
 2. Design Flask API based on the queries developed.
   - Use Flask to create your routes, list all routes, use Flask "jsonify" for the return.
-
-Reference file [climate_starter](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/climate_starter.ipynb)
 
 *********
 
@@ -31,6 +31,8 @@ Reference file [climate_starter](https://github.com/Krla20/sqlalchemy-challenge/
 - Plot the results.
 - Used Pandas to print the summary statistics for the precipitation data.
 
+Reference file [climate_starter](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/climate_starter.ipynb)
+
 ![alt text](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/Images/One_year_precipitation.png)
 
 ### Station Analysis
@@ -44,12 +46,15 @@ Reference file [climate_starter](https://github.com/Krla20/sqlalchemy-challenge/
 
 ![alt_text](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/Images/Temperature_station_USC00519281.png)
 
- ***
+***
+ 
 ### Objective 2 - Climate App
-
+----
 - Design a Flask API based on the queries that were developed in step 1.
 - Use Flask to create and list all your routes.
 - Use Flask jsonify to convert your API data into a valid JSON response object.
+
+Reference file [app.py](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/app.py)
 
   - All Routes
 ![alt_text](https://github.com/Krla20/sqlalchemy-challenge/blob/main/Instructions/Images/api_routes.PNG)
